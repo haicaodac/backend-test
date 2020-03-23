@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Bình luận mới</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif !important;
+        }
+
+
+        .wrapper {
+            padding: 30px 20px;
+        }
+
+        .heading {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .title {
+            font-size: 16px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .button {
+            color: #8ac551;
+        }
+
+        a {
+            display: block;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <p class="title">Bài viết: {{.Title}}</p>
+        <p>Người bình luận: {{.FullName}}</p>
+        {{ if eq .Level "admin" }}
+        <p>Chức vụ: Quản trị viên</p>
+        {{ end }}
+        {{ if eq .Level "editor" }}
+        <p>Chức vụ: Biên tập viên</p>
+        {{ end }}
+        <p>Thời gian: {{.Time}}</p>
+        <p>Nội dung: {{.Content}}</p>
+        <a class="button" href="https://hanyny.com/bai-viet/{{.URL}}">Trả lời bình luận</a>
+    </div>
+</body>
+
+</html>

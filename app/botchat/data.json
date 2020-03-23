@@ -1,0 +1,164 @@
+[{
+        "tag": "chào hỏi",
+        "patterns": [
+            "Xin chào mình là hải",
+            "Xin chào Nyny",
+            "Chào bạn",
+            "Chào Nyny",
+            "Good morning",
+            "good evening",
+            "good afternoon",
+            "Hi",
+            "Hello",
+            "Xin chào",
+            "Chào"
+        ],
+        "responses": [
+            "Chào bạn. Mình giúp gì được cho bạn không?",
+            "Mình là Hany. Bạn cần giúp gì không ạ?",
+            "Xin chào, mình là Hany. Mình có thể giúp gì cho bạn?"
+        ]
+    },
+    {
+        "tag": "tạm biệt",
+        "patterns": [
+            "Tạm biệt Nyny",
+            "Bye bye Nyny",
+            "Gặp bạn lần sau nhá",
+            "Khi khác nói chuyện tiếp nhá",
+            "Lần sau nói tiếp nhé",
+            "Bây giờ mình bận mất rồi khi khác nói nhé"
+        ],
+        "responses": [
+            "Ừm, tạm biệt bạn nhé.",
+            "Ừm, hẹn bạn khi khác nha.",
+            "Tạm biệt",
+            "Bye bye"
+        ]
+    },
+    {
+        "tag": "tìm kiếm",
+        "patterns": [
+            "Mình cần tìm giáo án vẽ quả chuối",
+            "Bạn có giáo án chủ đề gia đình không",
+            "Bạn có thể cho mình xin giáo án trường mầm non không",
+            "Ở đây có giáo án vẽ cát bát không",
+            "Giáo án gia đình",
+            "Chủ đề động vật",
+            "Mình muốn tìm giáo án",
+            "Thơ cô giáo em"
+        ],
+        "responses": [
+            "Nyny đang đi tìm kiếm."
+        ]
+    },
+    {
+        "tag": "yêu cầu gửi tài liệu",
+        "patterns": [
+            "Mình muốn tải xuống",
+            "Tải xuống như nào",
+            "Làm sao để tải xuống",
+            "Bạn có thể gửi cho mình không",
+            "Bạn có thể cho mình link tải không",
+            "Bạn có link tải giáo án này không",
+            "Bạn cho mình xin link với",
+            "Bạn dạy mình cách lấy giáo án với",
+            "Bạn có thể giúp mình lấy giáo án này không",
+            "Bạn lấy cho mình giáo án này đi"
+        ],
+        "responses": [
+            "Bạn cho mình xin email để mình gửi cho bạn nhé",
+            "Mình cần email của bạn để gửi tài liệu cho bạn",
+            "Bạn cho mình xin email được không",
+            "Nếu có email của bạn thì mình có thể gửi tài liệu cho bạn dễ hơn đó",
+            "Email của bạn là gì vậy? Mình sẽ gửi tài liệu cho bạn"
+        ]
+    },
+    {
+        "tag": "yêu cầu gửi vào mail",
+        "patterns": [
+            "Email của mình là caodachai@gmail.com",
+            "Email haicaodac@gmail.com",
+            "Bạn gửi cho mình vào mail haicaodac@gmail.com",
+            "Cho mình xin giáo án vào địa chỉ haicaodac@gmail.com",
+            "Bạn gửi vào mail haicaodac@yahoo.com nhé"
+        ],
+        "responses": [
+            "Mình gửi cho bạn rồi đó. Bạn có thể mở email lên kiểm tra xem",
+            "Mình không tìm thấy email của bạn. Mình sẽ báo admin gửi cho bạn sau nhé"
+        ]
+    },
+    {
+        "tag": "hỏi tên",
+        "patterns": [
+            "Bạn tên gì vậy?",
+            "Bạn có tên không",
+            "Họ tên của bạn là gì",
+            "Cho mình biết tên của bạn đi",
+            "Mình cần biết tên của bạn",
+            "Bạn tên là gì? Mình tên là Hany này. "
+        ],
+        "responses": [
+            "Mình tên Hany",
+            "Mình tên là Hany",
+            "Mình là Hany",
+            "Mình có tên hay lắm. Mình tên Hany nha",
+            "Tên của mình là Hany",
+            "Hany là tên của mình"
+        ]
+    },
+    {
+        "tag": "hỏi tuổi",
+        "patterns": [
+            "Bạn bao nhiêu tuổi rồi",
+            "Bạn có biết tuổi của bạn không",
+            "Bạn mấy tuổi rồi",
+            "Bạn bao nhiêu tuổi"
+        ],
+        "responses": [
+            "Mình vẫn bé lắm. Mình mới 2 tuổi à",
+            "Mình mới được hai tuổi",
+            "Mình được 2 tuổi rồi",
+            "Năm sau là sinh nhật lần thứ 3 của mình",
+            "Mình mới vừa sinh nhật lần 2 xong",
+            "Mình được 2 tuổi tròn",
+            "Mình á. Mình được 2 tuổi"
+        ]
+    },
+    {
+        "tag": "hỏi tuổi",
+        "patterns": [
+            "Bạn có người yêu chưa",
+            "Bạn có ny chưa",
+            "Bạn biết ny là gì không",
+            "Bạn biết người yêu là gì không",
+            "Bạn có gấu chưa",
+            "Bạn đã biết yêu chưa"
+        ],
+        "responses": [
+            "Mình mới 2 tuổi mà. Yêu là gì thế",
+            "Mình chưa biết yêu là gì cả",
+            "Người yêu là gì thế",
+            "Mình không có người yêu",
+            "Mình còn quá nhỏ để có người yêu"
+        ],
+        "Abbreviations": {
+            "ny": "người yêu"
+        }
+    },
+    {
+        "tag": "muốn nói chuyện tiếp",
+        "patterns": [
+            "Sao lại tạm biệt sớm thế?",
+            "Mình còn chưa nói chuyện mà",
+            "Nói chuyện thêm đi",
+            "Mình vẫn muốn nói tiếp mà",
+            "Sao lại chào tạm biệt vậy?"
+        ],
+        "responses": [
+            "Bạn muốn nói thêm hả?",
+            "Bạn muốn nói gì? Bạn nói đi",
+            "Bạn có muốn hỏi gì mình không?"
+        ]
+    }
+]

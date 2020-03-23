@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Bài viết gửi tới bạn</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif !important;
+        }
+
+        .wrapper {
+            max-width: 480px !important;
+            margin: 20px 0 !important;
+        }
+
+        a {
+            color: #000 !important;
+            text-decoration: none !important;
+        }
+
+        img {
+            width: 100% !important;
+            margin: 10px 0 !important;
+        }
+
+        .emailButton {
+            display: inline-block !important;
+            padding: 10px 15px !important;
+            background: #8ac551 !important;
+            color: #fff !important;
+            border-radius: 50px !important;
+            font-size: 16px;
+            cursor: pointer !important;
+            text-decoration: none !important;
+        }
+
+        .emailButton:hover {
+            background: #71b331 !important;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="post">
+            <div class="head">
+                <a href="#">
+                    <h1>Thơ mầm non bài thơ làm bác sĩ</h1>
+                </a>
+            </div>
+            <div class="body">
+                <a href="#">
+                    <img src="http://localhost:8000/uploads/thumbnail/tho-mam-non-bai-tho-lam-bac-si.png" />
+                </a>
+                <p>Thơ mầm non bài thơ làm bác sĩ là bài thơ nói về cuộc trò chuyện giữa mẹ và bé. Bé làm bác sĩ chữa
+                    bệnh cho bé với mong muốn mẹ nhanh khỏi và mẹ nghe lời bác sĩ. Qua bài thơ chúng ta thấy tình cảm
+                    gia đình rất tuyệt vời giữa hai nhân vật.</p>
+            </div>
+        </div>
+    </div>
+    <a class="emailButton" href="{{.URL}}">Xem chi tiết</a>
+</body>
+
+</html>

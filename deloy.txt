@@ -1,0 +1,48 @@
+sudo vi /etc/systemd/system/hanyny.service
+
+[Unit]
+Description=
+ConditionPathExists=/home/api.hanyny.com
+After=network.target
+ 
+[Service]
+WorkingDirectory=/home/api.hanyny.com
+ExecStart=/home/api.hanyny.com/server
+Environment="MODE=production"
+Environment="PORT=8000"
+Environment="DOMAIN=https://hanyny.com/"
+Environment="STRAPI_URL=https://api.hanyny.com/"
+Environment="DB_HOST=localhost"
+Environment="DB_PORT=3306"
+Environment="DB_NAME=hanyny"
+Environment="DB_USER=root"
+Environment="DB_PASS=Hai@002010"
+
+User=root
+Group=root 
+Restart=always
+
+ 
+[Install]
+WantedBy=multi-user.target
+
+
+sudo systemctl start hanyny
+sudo systemctl stop hanyny
+sudo systemctl restart hanyny
+sudo systemctl enable hanyny
+sudo systemctl status hanyny
+
+
+export PATH=$PATH:/usr/local/go/bin
+export DOMAIN_API=https://api.hanyny.com/
+go build server.go
+sudo systemctl restart hanyny
+sudo systemctl restart nginx
+
+
+export PATH=$PATH:/usr/local/go/bin
+export DOMAIN_API=https://api.hanyny.com/
+npm run build
+pm2 restart nuxt
+sudo systemctl restart nginx
